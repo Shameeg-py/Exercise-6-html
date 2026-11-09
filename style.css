@@ -1,0 +1,67 @@
+input{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+select{ width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+}
+
+textarea{
+   width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;
+}
+button{
+  background: #2196f3;
+  color: white;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+button:hover{
+  background: blue;
+  color: black;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+tr {
+  display: flex;
+  width: 100%;
+
+}
+
+th, td {
+  display: flex;
+  align-items: center; 
+  flex: 1; 
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  margin: -1px 0 0 -1px;
+}
+tr:nth-child(even){
+  background-color: #f9f9f9;
+}
+
+body{
+  max-width: 800px;
+  align-items: center;
+ padding: auto;
+ word-spacing: normal;
+}
